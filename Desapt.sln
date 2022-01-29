@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{90A722B0-77F8-11EC-8443-874DA82D4825}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Desapt.CLI", "src\Desapt.CLI.csproj", "{D64C2BCC-6B64-4E74-ADA2-EDBFAF124856}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Desapt.CLI.Tests", "tests\Desapt.CLI.Tests\Desapt.CLI.Tests.csproj", "{62BC66DC-A332-4F47-8C19-460214D3C601}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D64C2BCC-6B64-4E74-ADA2-EDBFAF124856}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D64C2BCC-6B64-4E74-ADA2-EDBFAF124856}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D64C2BCC-6B64-4E74-ADA2-EDBFAF124856}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D64C2BCC-6B64-4E74-ADA2-EDBFAF124856}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62BC66DC-A332-4F47-8C19-460214D3C601}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62BC66DC-A332-4F47-8C19-460214D3C601}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62BC66DC-A332-4F47-8C19-460214D3C601}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62BC66DC-A332-4F47-8C19-460214D3C601}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{62BC66DC-A332-4F47-8C19-460214D3C601} = {90A722B0-77F8-11EC-8443-874DA82D4825}
+	EndGlobalSection
+EndGlobal
